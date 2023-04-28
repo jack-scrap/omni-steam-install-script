@@ -1,3 +1,13 @@
 "InstallScript"
 {
+	"Run Process"
+	{
+		"cp omni /usr/bin"
+		"cp build/*.so /usr/lib"
+		"cp dep/* /usr/lib"
+		"mkdir -p /usr/share/omni"
+		"cp stat.json lvl_spec.json /usr/share/omni"
+		"cp -r res lvl player /usr/share/omni"
+		"mkdir -p /usr/share/omni/player/script"
+	}
 }
