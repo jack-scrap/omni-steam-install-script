@@ -6,7 +6,7 @@
 		{
 			"Process 1"
 			"cp omni /usr/local/bin"
-			"cp build/*.so /usr/local/lib"
+			"cp lib/*.so /usr/local/lib"
 			"cp dep/* /usr/local/lib"
 			"mkdir -p /usr/local/share/omni"
 			"cp stat.json lvl_spec.json /usr/local/share/omni"
