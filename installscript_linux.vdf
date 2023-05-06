@@ -4,7 +4,7 @@
 	{
 		"Install"
 		{
-			"Process 1" "cp omni /usr/local/bin ; cp lib/*.so /usr/local/lib ; cp dep/* /usr/local/lib ; mkdir -p /usr/local/share/omni ; cp stat.json lvl_spec.json /usr/local/share/omni ; cp -r res lvl player /usr/local/share/omni ; mkdir -p /usr/local/share/omni/player/script ; mkdir -p /usr/local/lib/python3.6 ; cp omni.py catch_out.py /usr/local/lib/python3.6"
+			"Process 1" "mkdir -p player/script"
 		}
 	}
 }
