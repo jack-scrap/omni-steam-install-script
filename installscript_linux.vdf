@@ -4,7 +4,7 @@
 	{
 		"Install"
 		{
-			"Process 1" "mkdir -p player/script"
+			"Process 1" "chmod -w -R player/doc ; mkdir -p player/script"
 		}
 	}
 }
