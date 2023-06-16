@@ -1,0 +1,10 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"Install"
+		{
+			"Process 1" "attrib +r player\doc /d /s"
+		}
+	}
+}
